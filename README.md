@@ -1,42 +1,33 @@
-# mongo-crypto
-mongodb-cryto history
-<!-- write html page -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>Document</h1>
-        </div>
-        <div class="content">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <div class="row">
-                                                                <div class="col-md-12">
-                                                                    <div class="row">
-                                                                        <div class="col-md-12">
-                                                                            <div class="row">
-                                                                                <div class="col-md-12">
-                                                                                    <div class="row">
-                                                                                        <div class="col-md-12">
-                                                                                            <div class="row">
-                                                                                                <div class="col-md-12">
-                                                                                                    <div class="row">
-                                                                                                    
+
+# Mongo-Crypto
+
+Bu proje benim mongo kullanmayı öğrenmek için çıktığım yolda kendime öğrettiğim şeylerden oluşmaktadır projenin bir kaç kısımdan oluşması ve olduğunca modern teknolojiler kullanılarak modern bir web tasarımı yolunda ilerlelemiz en uygunu olacaktır.
+
+
+## API Kullanımı
+
+#### Tüm öğeleri getir
+
+```http
+  GET /api/items
+```
+
+| Parametre | Tip     | Açıklama                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Gerekli**. API anahtarınız. |
+
+#### Öğeyi getir
+
+```http
+  GET /api/items/${id}
+```
+
+| Parametre | Tip     | Açıklama                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Gerekli**. Çağrılacak öğenin anahtar değeri |
+
+#### add(num1, num2)
+
+İki sayı alır ve toplamı döndürür.
+
+  
